@@ -1,0 +1,58 @@
+@font-face {
+    font-family:vazir ;
+    font-weight: 100;
+    src: url(../src/assest/fonts/vazir/Vazirmatn-Thin.woff2);
+}
+@font-face {
+    font-family:vazir ;
+    font-weight: 200;
+    src: url(../src/assest/fonts/vazir/Vazirmatn-Light.woff2);
+}
+@font-face {
+    font-family:vazir ;
+    font-weight: 500;
+    src: url(../src/assest/fonts/vazir/Vazirmatn-Medium.woff2);
+}
+@font-face {
+    font-family:vazir ;
+    font-weight: 700;
+    src: url(../src/assest/fonts/vazir/Vazirmatn-SemiBold.woff2);
+}
+@font-face {
+    font-family:vazir ;
+    font-weight: bold;
+    src: url(../src/assest/fonts/vazir/Vazirmatn-Bold.woff2);
+}
+@font-face {
+    font-family: yekan;
+    src: url(../src/assest/fonts/yekan/Yekan.ttf);
+}
+@font-face {
+    font-family: vazirmatn;
+    src: url(../src/assest/fonts/vazirmatn/webfonts/Vazirmatn-RD-FD-NL-Black.woff2);
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% - 30px) / 2) !important;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.swiper-pagination span{
+    background-color: #9747ff;
+    width: 2rem;
+    border-radius: 0.3rem;
+}
+/* آژانس طراحی و پیاده سازی بیزینس و کسب کار های بزرگ */
+
