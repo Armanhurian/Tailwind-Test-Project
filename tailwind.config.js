@@ -11,14 +11,17 @@ module.exports = {
         darkWhite : "#F5F5F5",
         dark : "#110E2D",
         bgwhite : "#E8E8F4",
-        pink : "#E8DCFC"
+        pink : "#E8DCFC",
+        englishColor : "#3C3C61"
       },
       width: {
         '100': '25rem',
       },
       spacing : {
+        "13" : "3.2rem",
         "45" : "10.7rem;",
         "100" : "29rem;",
+        '120': '41rem',
       },
       fontFamily:{
         'vazir' : ['vazir'],
