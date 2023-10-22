@@ -602,10 +602,6 @@ video {
   right: 8rem;
 }
 
-.right-40 {
-  right: 10rem;
-}
-
 .right-48 {
   right: 12rem;
 }
@@ -843,10 +839,6 @@ video {
   width: 17rem;
 }
 
-.w-96 {
-  width: 24rem;
-}
-
 .w-full {
   width: 100%;
 }
@@ -1040,10 +1032,6 @@ video {
   padding: 1rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
 .p-8 {
   padding: 2rem;
 }
@@ -1086,11 +1074,6 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .pl-4 {
@@ -1154,11 +1137,6 @@ video {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .text-sm {
@@ -1358,28 +1336,72 @@ video {
     position: absolute;
   }
 
+  .mobile\:-bottom-16 {
+    bottom: -4rem;
+  }
+
   .mobile\:-right-36 {
     right: -9rem;
+  }
+
+  .mobile\:-top-48 {
+    top: -12rem;
+  }
+
+  .mobile\:-top-60 {
+    top: -15rem;
   }
 
   .mobile\:left-5 {
     left: 1.25rem;
   }
 
+  .mobile\:left-80 {
+    left: 20rem;
+  }
+
+  .mobile\:right-0 {
+    right: 0px;
+  }
+
+  .mobile\:right-12 {
+    right: 3rem;
+  }
+
   .mobile\:right-16 {
     right: 4rem;
+  }
+
+  .mobile\:right-8 {
+    right: 2rem;
   }
 
   .mobile\:top-16 {
     top: 4rem;
   }
 
+  .mobile\:top-24 {
+    top: 6rem;
+  }
+
   .mobile\:top-32 {
     top: 8rem;
   }
 
+  .mobile\:top-36 {
+    top: 9rem;
+  }
+
   .mobile\:top-4 {
     top: 1rem;
+  }
+
+  .mobile\:top-40 {
+    top: 10rem;
+  }
+
+  .mobile\:top-52 {
+    top: 13rem;
   }
 
   .mobile\:top-64 {
@@ -1390,8 +1412,20 @@ video {
     top: 26rem;
   }
 
+  .mobile\:left-108 {
+    left: 22rem;
+  }
+
+  .mobile\:z-10 {
+    z-index: 10;
+  }
+
   .mobile\:z-20 {
     z-index: 20;
+  }
+
+  .mobile\:z-30 {
+    z-index: 30;
   }
 
   .mobile\:mr-0 {
@@ -1404,6 +1438,10 @@ video {
 
   .mobile\:mt-48 {
     margin-top: 12rem;
+  }
+
+  .mobile\:mt-64 {
+    margin-top: 16rem;
   }
 
   .mobile\:mt-80 {
@@ -1426,6 +1464,14 @@ video {
     width: 91.666667%;
   }
 
+  .mobile\:w-31 {
+    width: 70px;
+  }
+
+  .mobile\:w-53 {
+    width: 206px;
+  }
+
   .mobile\:w-72 {
     width: 18rem;
   }
@@ -1438,12 +1484,24 @@ video {
     width: 530px;
   }
 
+  .mobile\:w-95 {
+    width: 380px;
+  }
+
   .mobile\:w-full {
     width: 100%;
   }
 
+  .mobile\:flex-col {
+    flex-direction: column;
+  }
+
   .mobile\:justify-center {
     justify-content: center;
+  }
+
+  .mobile\:gap-5 {
+    gap: 1.25rem;
   }
 
   .mobile\:bg-pinkMobileBg {
@@ -1453,6 +1511,10 @@ video {
   .mobile\:bg-white {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+
+  .mobile\:p-4 {
+    padding: 1rem;
   }
 
   .mobile\:px-12 {
@@ -1483,9 +1545,38 @@ video {
     font-size: 0.75rem;
     line-height: 1rem;
   }
+
+  .mobile\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
 }
 
 @media (min-width: 500px) {
+  .ms\:right-12 {
+    right: 3rem;
+  }
+
+  .ms\:top-16 {
+    top: 4rem;
+  }
+
+  .ms\:top-36 {
+    top: 9rem;
+  }
+
+  .ms\:w-106 {
+    width: 450px;
+  }
+
+  .ms\:w-33 {
+    width: 94px;
+  }
+
+  .ms\:w-60 {
+    width: 15rem;
+  }
+
   .ms\:w-98 {
     width: 626px;
   }
@@ -1494,11 +1585,21 @@ video {
     --tw-bg-opacity: 1;
     background-color: rgb(35 35 64 / var(--tw-bg-opacity));
   }
+
+  .ms\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .ms\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
 }
 
 @media (min-width: 640px) {
-  .sm\:absolute {
-    position: absolute;
+  .sm\:-bottom-36 {
+    bottom: -9rem;
   }
 
   .sm\:-right-36 {
@@ -1507,6 +1608,10 @@ video {
 
   .sm\:left-16 {
     left: 4rem;
+  }
+
+  .sm\:right-16 {
+    right: 4rem;
   }
 
   .sm\:right-36 {
@@ -1523,10 +1628,6 @@ video {
 
   .sm\:top-48 {
     top: 12rem;
-  }
-
-  .sm\:top-52 {
-    top: 13rem;
   }
 
   .sm\:z-0 {
@@ -1569,6 +1670,10 @@ video {
     width: 24rem;
   }
 
+  .sm\:w-97 {
+    width: 500px;
+  }
+
   .sm\:w-98 {
     width: 626px;
   }
@@ -1578,28 +1683,33 @@ video {
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
+  .sm\:p-6 {
+    padding: 1.5rem;
+  }
+
   .sm\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .sm\:text-start {
+    text-align: start;
   }
 
   .sm\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
   }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 768px) {
-  .md\:absolute {
-    position: absolute;
-  }
-
   .md\:relative {
     position: relative;
-  }
-
-  .md\:-bottom-36 {
-    bottom: -9rem;
   }
 
   .md\:-top-12 {
@@ -1618,20 +1728,12 @@ video {
     top: -1rem;
   }
 
-  .md\:-top-48 {
-    top: -12rem;
-  }
-
   .md\:-top-5 {
     top: -1.25rem;
   }
 
   .md\:-top-52 {
     top: -13rem;
-  }
-
-  .md\:-top-60 {
-    top: -15rem;
   }
 
   .md\:-top-8 {
@@ -1694,6 +1796,10 @@ video {
     right: 1rem;
   }
 
+  .md\:right-40 {
+    right: 10rem;
+  }
+
   .md\:right-48 {
     right: 12rem;
   }
@@ -1726,16 +1832,32 @@ video {
     top: 18rem;
   }
 
+  .md\:top-105 {
+    top: 33rem;
+  }
+
+  .md\:right-2 {
+    right: 0.5rem;
+  }
+
+  .md\:right-72 {
+    right: 18rem;
+  }
+
+  .md\:right-96 {
+    right: 24rem;
+  }
+
+  .md\:right-100 {
+    right: 29rem;
+  }
+
   .md\:z-10 {
     z-index: 10;
   }
 
   .md\:z-20 {
     z-index: 20;
-  }
-
-  .md\:z-30 {
-    z-index: 30;
   }
 
   .md\:mb-0 {
@@ -1830,16 +1952,16 @@ video {
     width: 83.333333%;
   }
 
-  .md\:w-53 {
-    width: 206px;
-  }
-
   .md\:w-64 {
     width: 16rem;
   }
 
   .md\:w-72 {
     width: 18rem;
+  }
+
+  .md\:w-89 {
+    width: 556px;
   }
 
   .md\:w-96 {
@@ -1911,9 +2033,19 @@ video {
     padding-right: 3rem;
   }
 
+  .md\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .md\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .md\:pb-20 {
@@ -1935,11 +2067,6 @@ video {
   .md\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
-  }
-
-  .md\:text-white {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
   .md\:shadow {
