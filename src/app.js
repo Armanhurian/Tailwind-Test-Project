@@ -1,11 +1,45 @@
 const swiper = new Swiper('.swiper', {
     // Optional parameters
 
-    slidesPerView: 4,
+    
     spaceBetween: 30,
-    grid: {
-        rows: 2,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
     },
+    breakpoints: {
+      1280: {
+        slidesPerView: 4,
+        grid: {
+          rows: 2,
+        },
+      },
+      1024: {
+        slidesPerView : 3,
+        grid: {
+          rows: 2,
+        },
+      },
+      750: {
+        slidesPerView : 2,
+        grid: {
+          rows: 2,
+        },
+      },
+      500: {
+        slidesPerView : 2,
+        grid: {
+          rows: 2,
+        },
+      },
+      365: {
+        slidesPerView : 1,
+        grid: {
+          rows: 1,
+        },
+      },
+    },
+    
     // If we need pagination
     pagination: {
       el: ".swiper-pagination",
@@ -21,4 +55,5 @@ const swiper = new Swiper('.swiper', {
   
     
   });
+
 
