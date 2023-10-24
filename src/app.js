@@ -32,10 +32,11 @@ const swiper = new Swiper('.swiper', {
           rows: 2,
         },
       },
-      365: {
-        slidesPerView : 1,
+      360: {
+        spaceBetween: 10,
+        slidesPerView : 2,
         grid: {
-          rows: 1,
+          rows: 2,
         },
       },
     },
